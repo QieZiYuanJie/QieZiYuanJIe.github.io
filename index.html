@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=zh>
 <head>
-    <!-- so meta -->
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!-- so meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
@@ -46,11 +46,10 @@
     <!-- rss -->
     
     
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
-    <div class="content index py4">
+<body class="max-width mx-auto px3 ltr">    
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="content index py4">
         
           <header id="header">
   <a href="/">
@@ -120,6 +119,46 @@
     
       
     
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-04T05:40:50.000Z" itemprop="datePublished">2020-03-04</time>
+        
+      
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">在hexo中渲染MathJax数学公式</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-04T04:34:41.000Z" itemprop="datePublished">2020-03-04</time>
+        
+      
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/">数学是做什么的</a>
+    
+
+
+</span>
+      </li>
     
       <li class="post-item">
         
@@ -241,5 +280,37 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>
