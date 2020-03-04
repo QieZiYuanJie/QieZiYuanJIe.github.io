@@ -35,7 +35,7 @@
       <link href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/"/>
       <url>/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/</url>
       
-        <content type="html"><![CDATA[<script type="math/tex; mode=display">c(u)=\begin{cases} \sqrt\frac{1}{N}，u=0\\ \sqrt\frac{2}{N}， u\neq0\end{cases}</script><script type="math/tex; mode=display">x_i</script><p>你好  $x_i$，哈哈</p><p>您好</p>]]></content>
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">c(u)=\begin{cases} \sqrt\frac{1}{N}，u=0\\ \sqrt\frac{2}{N}， u\neq0\end{cases}</script><script type="math/tex; mode=display">x_i</script><p>你好  $x_i$，哈哈</p><p>您好</p><script type="math/tex; mode=display">\left\{\begin{matrix}1 & 2 & 3 \\4 & 5 & 6 \\7 & 8 & 9\end{matrix}\right\}</script><p>哈哈</p>]]></content>
       
       
       
