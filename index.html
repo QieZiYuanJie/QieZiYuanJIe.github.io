@@ -1,422 +1,285 @@
 <!DOCTYPE html>
-<html>
+<html lang=zh>
 <head>
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
-  
-
-  
-  <title>以梦为馬</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:type" content="website">
 <meta property="og:title" content="以梦为馬">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="以梦为馬">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Yuanjie Dang">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="以梦为馬" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>以梦为馬</title>
+    <!-- styles -->
+    
 <link rel="stylesheet" href="/css/style.css">
 
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
 <meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
-<body>
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">以梦为馬</a>
-      </h1>
+<body class="max-width mx-auto px3 ltr">    
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="content index py4">
+        
+          <header id="header">
+  <a href="/">
+  
+    
+      <div id="logo" style="background-image: url(/images/logo.png);"></div>
+    
+  
+    <div id="title">
+      <h1>以梦为馬</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+       
+        <li><a href="/">首页</a></li>
+       
+        <li><a href="/about/">关于</a></li>
+       
+        <li><a href="/archives/">归档</a></li>
+       
+        <li><a href="/projects/">项目</a></li>
+       
+        <li><a href="/search/">搜索</a></li>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
+    </ul>
   </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-在hexo中渲染MathJax数学公式" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="article-date">
-  <time datetime="2020-03-04T05:40:50.000Z" itemprop="datePublished">2020-03-04</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">解决方法</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
+        <section id="about">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">在hexo中渲染MathJax数学公式</a>
-    </h1>
   
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>1.更换Hexo的markdown渲染引擎</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<p>2.安装 MathJax 库</p>
-<p>其实，应该停用 hexo-math，启用mathjax</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-math --save</span><br><span class="line">npm install hexo-renderer-mathjax --save</span><br></pre></td></tr></table></figure>
-<p>3.在博客配置文件“_config.yml”设置 math 引擎为：mathjax</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">math:</span><br><span class="line">  engine: &#39;mathjax&#39; # or &#39;katex&#39;</span><br><span class="line">  mathjax:</span><br><span class="line">    # src: custom_mathjax_source</span><br><span class="line">    config:</span><br><span class="line">      # MathJax config</span><br></pre></td></tr></table></figure>
-<p>4.在主题的配置文件 “_config.yml” 中开启 mathjax</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    per_page: true</span><br></pre></td></tr></table></figure>
-<p>备份 mathjax.html : <a href="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" target="_blank" rel="noopener">http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" data-id="ck7d6iwpe0009gwus25qn6r6o" class="article-share-link">Share</a>
+    <p>
+      在这里找到我：
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mathjax/" rel="tag">mathjax</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" rel="tag">数学公式</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-数学是做什么的" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/" class="article-date">
-  <time datetime="2020-03-04T04:34:41.000Z" itemprop="datePublished">2020-03-04</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/">数学是做什么的</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <script type="math/tex; mode=display">
-c(u)=\begin{cases} \sqrt\frac{1}{N}，u=0\\ \sqrt\frac{2}{N}， u\neq0\end{cases}</script><script type="math/tex; mode=display">
-x_i</script><p>你好  $x_i$，哈哈</p>
-<p>您好</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/" data-id="ck7d6iwp80003gwusbgqf5di7" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%A3%E6%95%B0/" rel="tag">代数</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%87%A0%E4%BD%95/" rel="tag">几何</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%86%E6%9E%90/" rel="tag">分析</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-一些照片" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/03/%E4%B8%80%E4%BA%9B%E7%85%A7%E7%89%87/" class="article-date">
-  <time datetime="2020-03-03T15:48:30.000Z" itemprop="datePublished">2020-03-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E7%85%A7%E7%89%87/">照片</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <a class="icon" target="_blank" rel="noopener" href="https://weibo.com/p/1005056361972443/home?from=page_100505&mod=TAB#place">
+            <i class="fab fa-weibo"></i><!--
+      ---></a><!--
+    ---><!--
+    --->   
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/03/%E4%B8%80%E4%BA%9B%E7%85%A7%E7%89%87/">一些照片</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/images/aaa.jpg" width="100%"> </p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/03/%E4%B8%80%E4%BA%9B%E7%85%A7%E7%89%87/" data-id="ck7d6iwpc0007gwus8u3rcsuv" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%99%8E%E8%99%8E%E7%94%9F%E5%A8%81/" rel="tag">虎虎生威</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-一首海子的诗" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/03/%E4%B8%80%E9%A6%96%E6%B5%B7%E5%AD%90%E7%9A%84%E8%AF%97/" class="article-date">
-  <time datetime="2020-03-03T12:58:53.000Z" itemprop="datePublished">2020-03-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AA%8A%E5%86%99/">誊写</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/03/%E4%B8%80%E9%A6%96%E6%B5%B7%E5%AD%90%E7%9A%84%E8%AF%97/">一首海子的诗</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="祖国（或以梦为马）"><a href="#祖国（或以梦为马）" class="headerlink" title="祖国（或以梦为马）"></a>祖国（或以梦为马）</h1><p>我要做远方的忠诚的儿子<br>和物质的短暂情人<br>和所有以梦为马的诗人一样<br>我不得不和烈士和小丑走在同一道路上</p>
-<p>万人都要将火熄灭我一人独将此火高高举起<br>此火为大 开花落英于神圣的祖国<br>和所有以梦为马的诗人一样<br>我藉此火得度一生的茫茫黑夜</p>
-<p>此火为大 祖国的语言和乱石投筑的梁山城寨<br>以梦为上的敦煌————那七月也会寒冷的骨骼<br>如雪白的柴和坚硬的条条白雪横放在众神之山<br>和所有以梦为马的诗人一样<br>我投入此火这三者是囚禁我的灯盏吐出光辉</p>
-<p>万人都要从我刀口走过  去建筑祖国的语言<br>我给甘愿一切从头开始<br>和所有以梦为马的诗人一样<br>我也愿将牢底坐穿</p>
-<p>众神创造物中只有我最易朽<br>带着不可抗拒的死亡的速度<br>只有粮食是我珍爱 我将她紧紧抱住 抱住她 在故乡生儿育女<br>和所有以梦为马的诗人一样<br>我也愿将自己埋在四周高高的山上 守望平静家园</p>
-<p>面对大河我无限惭愧<br>我年华虚度 空有一身疲倦<br>和所有以梦为马的诗人一样<br>岁月易逝 一滴不剩 水滴中有一匹马儿一名归天</p>
-<p>千年后如若我再生于祖国的河岸<br>千年后我再次拥有中国的稻田<br>和周天子的雪山天马踢踏<br>和所有以梦为马的诗人一样<br>我选择永恒的事业</p>
-<p>我的事业 就是要成为太阳的一生<br>她从古至今————”日“————他无比辉煌无比光明<br>和所有以梦为马的诗人一样<br>最后我被黄昏的众神抬入不朽的太阳</p>
-<p>太阳是我的名字<br>太阳是我的一生<br>太阳的山顶埋葬 诗歌的尸体————千年王国和我<br>骑着五前年凤凰和名字叫“马”的龙————我必将失败<br>但诗歌本身以太阳必将胜利</p>
-<p>1987</p>
-<audio src="/musics/test.mp3" controls="controls"  autoplay="autoplay">
-Your browser does not support the audio element.
-</audio>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/03/%E4%B8%80%E9%A6%96%E6%B5%B7%E5%AD%90%E7%9A%84%E8%AF%97/" data-id="ck7d6iwp50001gwus3p8s59tj" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B5%B7%E5%AD%90/" rel="tag">海子</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%97/" rel="tag">诗</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/03/hello-world/" class="article-date">
-  <time datetime="2020-03-03T05:34:33.155Z" itemprop="datePublished">2020-03-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          <a class="icon" target="_blank" rel="noopener" href="mailto:1457546658@qq.com">
+            <i class="fas fa-envelope"></i><!--
+      ---></a><!--
+      ---><!--
+    --->.
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/03/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/03/hello-world/" data-id="ck7d6iwoa0000gwus5k100xeb" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
+    </p>
   
-</article>
-
-
-  
-
-
 </section>
+
+<section id="writing">
+  <span class="h1"><a href="/archives">文章</a></span>
+  
+  <ul class="post-list">
+    
+    
+      
+    
+    
+      <li class="post-item">
         
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%85%A7%E7%89%87/">照片</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">解决方法</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AA%8A%E5%86%99/">誊写</a></li></ul>
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-04T05:40:50.000Z" itemprop="datePublished">2020-03-04</time>
+        
+      
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/mathjax/" rel="tag">mathjax</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%A3%E6%95%B0/" rel="tag">代数</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%87%A0%E4%BD%95/" rel="tag">几何</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%86%E6%9E%90/" rel="tag">分析</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" rel="tag">数学公式</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B5%B7%E5%AD%90/" rel="tag">海子</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%8E%E8%99%8E%E7%94%9F%E5%A8%81/" rel="tag">虎虎生威</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%97/" rel="tag">诗</a></li></ul>
+        <a class="" href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">在hexo中渲染MathJax数学公式</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-04T04:34:41.000Z" itemprop="datePublished">2020-03-04</time>
+        
+      
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/mathjax/" style="font-size: 10px;">mathjax</a> <a href="/tags/%E4%BB%A3%E6%95%B0/" style="font-size: 10px;">代数</a> <a href="/tags/%E5%87%A0%E4%BD%95/" style="font-size: 10px;">几何</a> <a href="/tags/%E5%88%86%E6%9E%90/" style="font-size: 10px;">分析</a> <a href="/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" style="font-size: 10px;">数学公式</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E8%99%8E%E8%99%8E%E7%94%9F%E5%A8%81/" style="font-size: 10px;">虎虎生威</a> <a href="/tags/%E8%AF%97/" style="font-size: 10px;">诗</a>
+        <a class="" href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/">数学是做什么的</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-03T15:48:30.000Z" itemprop="datePublished">2020-03-03</time>
+        
+      
     </div>
-  </div>
 
-  
+
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a></li></ul>
+        <a class="" href="/2020/03/03/%E4%B8%80%E4%BA%9B%E7%85%A7%E7%89%87/">一些照片</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-03T12:58:53.000Z" itemprop="datePublished">2020-03-03</time>
+        
+      
     </div>
-  </div>
 
 
-  
+        <span>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
+        <a class="" href="/2020/03/03/%E4%B8%80%E9%A6%96%E6%B5%B7%E5%AD%90%E7%9A%84%E8%AF%97/">一首海子的诗</a>
+    
+
+
+</span>
+      </li>
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2020-03-03T05:34:33.155Z" itemprop="datePublished">2020-03-03</time>
+        
+      
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2020/03/03/hello-world/">Hello World</a>
+    
+
+
+</span>
+      </li>
+    
+  </ul>
+  
+</section>
+
+
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2020 Yuanjie Dang
+  </div>
+  <div class="footer-right">
+    <nav>
       <ul>
-        
-          <li>
-            <a href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">在hexo中渲染MathJax数学公式</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/04/%E6%95%B0%E5%AD%A6%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84/">数学是做什么的</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/03/%E4%B8%80%E4%BA%9B%E7%85%A7%E7%89%87/">一些照片</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/03/%E4%B8%80%E9%A6%96%E6%B5%B7%E5%AD%90%E7%9A%84%E8%AF%97/">一首海子的诗</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/03/hello-world/">Hello World</a>
-          </li>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/projects/">项目</a></li>
+         
+          <li><a href="/search/">搜索</a></li>
         
       </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 Yuanjie Dang<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
+    </nav>
   </div>
 </footer>
+
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+    <!-- styles -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
 
 
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
 
 
-<script src="/js/script.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
 
 
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
 
 
-  </div>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
