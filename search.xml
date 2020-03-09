@@ -8,9 +8,21 @@
       <link href="/2020/03/09/%E9%80%9A%E5%BE%80%E6%A1%83%E8%8A%B1%E6%BA%90%E7%9A%84%E4%B8%80%E6%9D%A1%E5%B0%8F%E8%B7%AF/"/>
       <url>/2020/03/09/%E9%80%9A%E5%BE%80%E6%A1%83%E8%8A%B1%E6%BA%90%E7%9A%84%E4%B8%80%E6%9D%A1%E5%B0%8F%E8%B7%AF/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"<p><a href="/myImages/01.jpg" class="gallery-item"><img src="/myImages/01.jpg" width="100%"></a></p></div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script src="true"></script><script src="true"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"<p>2020年3月8日，在秦岭山脚下，顺着一条藤条发现了一个秘境</p><h1 id="发现一个藤条"><a href="#发现一个藤条" class="headerlink" title="发现一个藤条"></a>发现一个藤条</h1><p><a href="/myImages/01.jpg" class="gallery-item"><img src="/myImages/01.jpg" width="100%"></a></p><h1 id="一条小路"><a href="#一条小路" class="headerlink" title="一条小路"></a>一条小路</h1><p><a href="/myImages/02.jpg" class="gallery-item"><img src="/myImages/02.jpg" width="100%"></a></p><h1 id="鬼斧神工的砂石路"><a href="#鬼斧神工的砂石路" class="headerlink" title="鬼斧神工的砂石路"></a>鬼斧神工的砂石路</h1><p><a href="/myImages/03.jpg" class="gallery-item"><img src="/myImages/03.jpg" width="100%"></a></p><h1 id="归来"><a href="#归来" class="headerlink" title="归来"></a>归来</h1><p><a href="/myImages/06.jpg" class="gallery-item"><img src="/myImages/06.jpg" width="100%"></a></p></div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script src="true"></script><script src="true"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
       
       
+      <categories>
+          
+          <category> 照片 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 桃花源 </tag>
+            
+        </tags>
       
     </entry>
     
