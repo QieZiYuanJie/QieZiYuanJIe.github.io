@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>通往桃花源的一条小路</title>
+      <link href="/2020/03/09/%E9%80%9A%E5%BE%80%E6%A1%83%E8%8A%B1%E6%BA%90%E7%9A%84%E4%B8%80%E6%9D%A1%E5%B0%8F%E8%B7%AF/"/>
+      <url>/2020/03/09/%E9%80%9A%E5%BE%80%E6%A1%83%E8%8A%B1%E6%BA%90%E7%9A%84%E4%B8%80%E6%9D%A1%E5%B0%8F%E8%B7%AF/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/css/lightgallery.min.css" /><div class=".article-gallery"<p><a href="/myImages/01.jpg" class="gallery-item"><img src="/myImages/01.jpg" width="100%"></a></p></div><script src="https://cdn.jsdelivr.net/lightgallery.js/1.0.1/js/lightgallery.min.js"></script><script src="true"></script><script src="true"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在hexo中渲染MathJax数学公式</title>
       <link href="/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
       <url>/2020/03/04/%E5%9C%A8hexo%E4%B8%AD%E6%B8%B2%E6%9F%93MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
